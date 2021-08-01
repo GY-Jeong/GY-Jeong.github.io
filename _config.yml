@@ -24,6 +24,15 @@ plainwhite:
     #- home
     - page
     - post
+    
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
+    - title: Categoty
+      url: "/tags"
+      
   # generate social links in footer
   social_links:
     #twitter: samarsault
@@ -46,13 +55,14 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
-  sitemap: true
+    
   disqus_shortname: "https-gy-jeong-github-io"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
+
 
 show_excerpts: true
 
